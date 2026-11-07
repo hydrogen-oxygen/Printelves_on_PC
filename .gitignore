@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# 测试 / 类型检查 / 覆盖率
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 逆向中间产物（jadx/apktool/Ghidra，体积大且含反编译内容，不入库）
+work/
+
+# 原始样本 APK（体积大，请自行获取）
+hwxyb.apk
